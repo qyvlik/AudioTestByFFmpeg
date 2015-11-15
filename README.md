@@ -2,6 +2,10 @@
 
 Use ffmpeg decode audio file, QAudioOutput play the sound.
 
+How to build&&run.
+
+Don't use shawdow build. Copy all of the file in the dll directory into releases or debug directory.
+
 本作者博客原文[ ffmpeg进行音频解码，QAudioOutput播放解码后的音频](http://blog.csdn.net/qyvlik/article/details/44118561)。
 
 > 作者：qyvlik

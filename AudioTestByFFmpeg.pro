@@ -9,7 +9,8 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    ffmpegstream.cpp
 
 INCLUDEPATH +=  ffmpeg/include
 LIBS += ffmpeg/lib/libavcodec.dll.a \
@@ -21,4 +22,5 @@ LIBS += ffmpeg/lib/libavcodec.dll.a \
         ffmpeg/lib/libswscale.dll.a \
 
 HEADERS += \
-    decodeAndPlay.h
+    decodeAndPlay.h \
+    ffmpegstream.h
